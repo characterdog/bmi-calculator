@@ -1,2 +1,2 @@
 language: android
-script: ./gradlew build test
+script: chmod +x gradlew && ./gradlew build test
