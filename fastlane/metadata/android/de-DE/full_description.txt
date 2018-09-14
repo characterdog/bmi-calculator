@@ -1,1 +1,1 @@
-Einfacher BMI-Rechner (Body mass index) im Material Design
+Simple BMI (Body mass index) calculator with Material Design
