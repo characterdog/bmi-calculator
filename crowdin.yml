@@ -1,0 +1,8 @@
+files:
+  - source: app/src/main/res/values/strings.xml
+    translation: app/src/main/res/values-%two_letters_code%/strings.xml
+    languages_mapping:
+      two_letters_code:
+        en-GB: en-rGB
+        en-US: en-rUS
+        pt-BR: pt-rBR
