@@ -1,1 +1,1 @@
-Simple BMI calculator
+Einfacher BMI-Rechner
