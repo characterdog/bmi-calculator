@@ -1,8 +1,10 @@
 # BMI calculator app for Android
 <a href="https://travis-ci.com/characterdog/bmi-calculator/"><img src="https://api.travis-ci.com/characterdog/bmi-calculator.svg?branch=master"></a> <a title="Crowdin" target="_blank" href="https://crowdin.com/project/characterdog-bmi-calculator"><img src="https://d322cqt584bo4o.cloudfront.net/characterdog-bmi-calculator/localized.svg"></a>
 
-<img src="fastlane/metadata/android/en-US/images/icon.png" width="150px">
 
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.bmicalculator)
+
+<img src="fastlane/metadata/android/en-US/images/icon.png" width="150px">
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="400px"> <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="400px">
 
