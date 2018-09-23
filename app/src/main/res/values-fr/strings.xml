@@ -22,4 +22,5 @@
   <string name="bmi_cat_11">Obésité classe VI (Hyper obésité)</string>
   <string name="imperial">Impérial</string>
   <string name="metric">Métrique</string>
+  <string name="default_unit">@string/metric</string>
 </resources>
