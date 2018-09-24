@@ -1,1 +1,1 @@
-Simple BMI calculator
+Calculateur d’IMC basique
