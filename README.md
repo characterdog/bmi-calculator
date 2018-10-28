@@ -10,7 +10,8 @@
 
 ## Translations
 
-Translations are managed via [Crowdin](https://crowdin.com/project/characterdog-bmi-calculator). Translations need to be approved before I can merge them. Please do not hesitate to contact me via Crowdin or GitHub issue if you want to become Proofreader or if you want to request a language.
+Translations are managed via [Crowdin](https://crowdin.com/project/characterdog-bmi-calculator). Translations need to be approved before I can merge them. Please do not hesitate to contact me via Crowdin or GitHub issue if you want to become proofreader or if you want to request a language.
+
 There is no need to translate en-GB and en-US. These are only included to default to the imperial system in these countries.
 
 ## License
