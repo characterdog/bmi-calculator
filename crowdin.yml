@@ -6,6 +6,7 @@ files:
         en-GB: en-rGB
         en-US: en-rUS
         pt-BR: pt-rBR
+        es-US: es-rUS
   - source: /fastlane/metadata/android/en-US/full_description.txt
     translation: /fastlane/metadata/android/%locale%/full_description.txt
   - source: /fastlane/metadata/android/en-US/short_description.txt
