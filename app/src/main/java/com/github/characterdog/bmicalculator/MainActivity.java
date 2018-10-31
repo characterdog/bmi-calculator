@@ -82,10 +82,10 @@ public class MainActivity extends AppCompatActivity {
             double bmi = calculateBmiAndCastIfNeeded(getTextAsDouble(txt_height), getTextAsDouble(txt_weight));
             int percentile = 0;
 
-            RadioButton btn_Man = findViewById(R.id.man);
-            RadioButton btn_Woman = findViewById(R.id.woman);
+            RadioButton btn_man = findViewById(R.id.man);
+            RadioButton btn_woman = findViewById(R.id.woman);
 
-            if(btn_Man.isChecked()) {
+            if(btn_man.isChecked()) {
                 if(bmi<20.8){percentile=5;}
                 else if(bmi>=20.8 && bmi <22.2){percentile=10;}
                 else if(bmi>=22.2 && bmi <24.0){percentile=20;}
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                 else if(bmi>=28.0 && bmi <29.5){percentile=60;}
                 else if(bmi>=29.5 && bmi <32.4){percentile=70;}
             }
-            else if(btn_Woman.isChecked()) {
+            else if(btn_woman.isChecked()) {
                 if(bmi<19.9){percentile=5;}
                 else if(bmi>=19.9 && bmi <21.3){percentile=10;}
                 else if(bmi>=21.3 && bmi <22.9){percentile=20;}
@@ -105,10 +105,6 @@ public class MainActivity extends AppCompatActivity {
                 else if(bmi>=28.3 && bmi <30.3){percentile=60;}
                 else if(bmi>=30.3 && bmi <32.4){percentile=70;}
             }
-
-
-
-
             txt_result_pct.setText(percentile+" Percentile");
             txt_result_bmi.setText(getString(R.string.bmi_result, bmi));
             txt_result_cat.setText(getCategory(bmi));
