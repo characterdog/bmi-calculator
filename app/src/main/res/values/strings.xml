@@ -21,4 +21,7 @@
     <string name="imperial">Imperial</string>
     <string name="metric">Metric</string>
     <string name="default_unit">@string/metric</string>
+    <string name="age">Current Age</string>
+    <string name="Man">Man</string>
+    <string name="Woman">Woman</string>
 </resources>
