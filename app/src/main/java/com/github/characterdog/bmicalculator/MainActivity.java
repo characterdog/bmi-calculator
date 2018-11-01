@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView txt_result_bmi;
     TextView txt_result_cat;
+    TextView txt_result_pct;
     AutoCompleteTextView txt_height;
     AutoCompleteTextView txt_weight;
     SharedPreferences sharedPreferences;
@@ -36,11 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
         txt_height = findViewById(R.id.txt_height);
         txt_weight = findViewById(R.id.txt_weight);
+
+
         initTextField(txt_height);
         initTextField(txt_weight);
 
+
         txt_result_bmi = findViewById(R.id.txt_result_bmi);
         txt_result_cat = findViewById(R.id.txt_result_cat);
+        txt_result_pct = findViewById(R.id.txt_result_cat3);
+
         Button btn_more_info = findViewById(R.id.btn_more_info);
         btn_more_info.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -74,11 +80,38 @@ public class MainActivity extends AppCompatActivity {
     private void calculateBmiIfPossible() {
         if (isValidInput(txt_height) && isValidInput(txt_weight)) {
             double bmi = calculateBmiAndCastIfNeeded(getTextAsDouble(txt_height), getTextAsDouble(txt_weight));
+            int percentile = 0;
+
+            RadioButton btn_man = findViewById(R.id.man);
+            RadioButton btn_woman = findViewById(R.id.woman);
+
+            if(btn_man.isChecked()) {
+                if(bmi<20.8){percentile=5;}
+                else if(bmi>=20.8 && bmi <22.2){percentile=10;}
+                else if(bmi>=22.2 && bmi <24.0){percentile=20;}
+                else if(bmi>=24.0 && bmi <25.5){percentile=30;}
+                else if(bmi>=25.5 && bmi <26.8){percentile=40;}
+                else if(bmi>=26.8 && bmi <28.0){percentile=50;}
+                else if(bmi>=28.0 && bmi <29.5){percentile=60;}
+                else if(bmi>=29.5 && bmi <32.4){percentile=70;}
+            }
+            else if(btn_woman.isChecked()) {
+                if(bmi<19.9){percentile=5;}
+                else if(bmi>=19.9 && bmi <21.3){percentile=10;}
+                else if(bmi>=21.3 && bmi <22.9){percentile=20;}
+                else if(bmi>=22.9 && bmi <24.9){percentile=30;}
+                else if(bmi>=24.9 && bmi <26.5){percentile=40;}
+                else if(bmi>=26.5 && bmi <28.3){percentile=50;}
+                else if(bmi>=28.3 && bmi <30.3){percentile=60;}
+                else if(bmi>=30.3 && bmi <32.4){percentile=70;}
+            }
+            txt_result_pct.setText(percentile+" Percentile");
             txt_result_bmi.setText(getString(R.string.bmi_result, bmi));
             txt_result_cat.setText(getCategory(bmi));
         } else {
             txt_result_bmi.setText("");
             txt_result_cat.setText("");
+            txt_result_pct.setText("");
         }
     }
 
