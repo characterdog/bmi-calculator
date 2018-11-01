@@ -9,6 +9,7 @@ files:
         es-US: es-rUS
         zh-CN: zh-rCN
         zh-TW: zh-rTW
+        he: iw
   - source: /fastlane/metadata/android/en-US/full_description.txt
     translation: /fastlane/metadata/android/%locale%/full_description.txt
   - source: /fastlane/metadata/android/en-US/short_description.txt
