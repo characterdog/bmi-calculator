@@ -14,6 +14,12 @@
     <string name="bmi_cat_3">Podváha</string>
     <string name="bmi_cat_4">Normální (zdravá váha)</string>
     <string name="bmi_cat_5">Nadváha</string>
+    <string name="bmi_cat_6">Obezita I. stupně (mírná obezita)</string>
+    <string name="bmi_cat_7">Obezita II. stupně (těžká obezita)</string>
+    <string name="bmi_cat_8">Obezita III. stupně (velmi těžká obezita)</string>
+    <string name="bmi_cat_9">Obezita IV. stupně (morbidní obezita)</string>
+    <string name="bmi_cat_10">Obezita V. stupně (super obezita)</string>
+    <string name="bmi_cat_11">Obezita VI. stupně (hyper obezita)</string>
     <string name="imperial">Imperiální</string>
     <string name="metric">Metrické</string>
     <string name="default_unit">@string/metric</string>
