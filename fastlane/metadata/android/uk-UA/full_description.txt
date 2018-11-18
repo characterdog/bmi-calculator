@@ -1,1 +1,1 @@
-Simple BMI (Body mass index) calculator with Material Design
+Простий калькулятор індексу маси тіла (ІМТ) з Material-дизайном
