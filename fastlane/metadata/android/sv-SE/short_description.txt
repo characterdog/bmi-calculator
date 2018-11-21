@@ -1,1 +1,1 @@
-Simple BMI calculator
+Enkel BMI kalkylator
