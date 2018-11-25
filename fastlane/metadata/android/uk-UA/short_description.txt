@@ -1,1 +1,1 @@
-Простий калькулятор індексу маси тіла (ІМТ)
+Easy and simple Body mass index calculator
