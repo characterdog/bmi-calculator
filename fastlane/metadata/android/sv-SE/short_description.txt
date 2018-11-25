@@ -1,1 +1,1 @@
-Enkel BMI kalkylator
+Easy and simple Body mass index calculator
