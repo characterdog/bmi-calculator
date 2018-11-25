@@ -1,1 +1,7 @@
-Простой калькулятор индекса массы тела (ИМТ) с Material-дизайном
+* Supports metric and imperial system of units
+* Material Design
+* Your data stays on your device
+* No ads or tracking
+* Fully open source: https://github.com/characterdog/bmi-calculator
+
+Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
