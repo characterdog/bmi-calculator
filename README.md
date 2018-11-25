@@ -12,6 +12,7 @@ Easy and simple Body mass index calculator
 Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.bmicalculator)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.github.characterdog.bmicalculator)
 
 <img src="fastlane/metadata/android/en-US/images/icon.png" width="150px">
 
@@ -26,3 +27,6 @@ There is no need to translate en-GB and en-US. These are only included to defaul
 ## License
 
 Published under [GNU General Public License v3.0 or later](https://spdx.org/licenses/GPL-3.0-or-later.html).
+
+
+Google Play and the Google Play logo are trademarks of Google LLC.
