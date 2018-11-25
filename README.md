@@ -1,15 +1,10 @@
 # BMI calculator app for Android
 <a href="https://travis-ci.com/characterdog/bmi-calculator/"><img src="https://api.travis-ci.com/characterdog/bmi-calculator.svg?branch=master"></a> <a title="Crowdin" target="_blank" href="https://crowdin.com/project/characterdog-bmi-calculator"><img src="https://d322cqt584bo4o.cloudfront.net/characterdog-bmi-calculator/localized.svg"></a>
 
-Easy and simple Body mass index calculator
-
 * Supports metric and imperial system of units
 * Material Design
 * Your data stays on your device
 * No ads or tracking
-* Fully open source: https://github.com/characterdog/bmi-calculator
-
-Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.bmicalculator)
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.github.characterdog.bmicalculator)
