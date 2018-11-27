@@ -1,1 +1,1 @@
-Easy and simple Body mass index calculator
+Jednoduchá a prostá kalkulačka na výpočet indexu tělesné hmotnosti
