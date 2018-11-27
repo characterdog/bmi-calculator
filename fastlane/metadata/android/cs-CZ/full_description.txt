@@ -1,8 +1,8 @@
-Why use this app:
-• Supports metric and imperial system of units
+Proč používat tuto aplikaci:
+• Podporuje metrický a imperiální systém jednotek
 • Material Design
-• Your data stays on your device
-• No ads or tracking
-• Fully open source: https://github.com/characterdog/bmi-calculator
+• Vaše data zůstanou na Vašem zařízení
+• Žádné reklamy ani sledování
+• Plně otevřený zdrojový kód: https://github.com/characterdog/bmi-calculator
 
-Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
+Pomozte přeložit tuto aplikaci: https://crowdin.com/project/characterdog-bmi-calculator
