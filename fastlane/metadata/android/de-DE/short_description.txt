@@ -1,1 +1,1 @@
-Easy and simple Body mass index calculator
+Einfacher und unkomplizierter Body-Mass-Index-Rechner
