@@ -1,1 +1,1 @@
-Easy and simple Body mass index calculator
+Kolay ve sade Vücut kitle indeksi hesaplayıcısı
