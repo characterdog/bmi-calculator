@@ -1,1 +1,1 @@
-BMI calculator - Easy and simple
+Calculadora de IMC - Fácil y simple
