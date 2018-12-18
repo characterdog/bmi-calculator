@@ -28,7 +28,20 @@
     <string name="help_translating_this_app">Bu uygulamayı çevirmeye yardım et!</string>
     <string name="rate_in_play_store">Play Storda oy ver</string>
     <string name="share_with_friends">Arkadaşlarınla paylaş</string>
+    <string name="check_out">Hey, bu uygulamayı inceleyin: %s\n%s</string>
     <string name="legal">Yasal</string>
     <string name="license">Lisans</string>
     <string name="privacy_policy">Güvenlik politikası</string>
+    <string name="privacy_policy_content"><![CDATA[   1. Bu uygulamayı Google Play'dan yüklerseniz, Google, aygıtınız hakkında bilgi toplayacak ve  onu Google Play panelinde gösterecektir. Bir çökme durumunda bazı bilgiler Google'a yüklenir. Bunun üzerinde hiçbir denetimim yok. Lütfen ayrıntılar için gizlilik politikasına bakınız.\n
+   2. Bu uygulamayı F-Droid'den yüklerseniz kullanım verilerini göremem. Lütfen ayrıntlar için gizlilik politikasına bakınız.\n
+   3. Aygıtta Google Otomatik Yedekleme çalışıyorsa, Google, sisteminizi Google Drive'a yükler: https://developer.android.com/guide/topics/data/autobackup\n
+    4. characterdog.apps@gmail.com dan bana posta gönderebilirsin. Bu durumda ben ve Google sizin e-posta adresinizi ve postada yazdığınız herşeyi bileceğiz. Sorununuz çözüldükten veya sorunuz yanıtlandıktan sonra e-postanızı sileceğim. Google bu postaları bir yedeğini alabilir ve ben yaptığımda silmez.\n
+   5. Hakkında bölümünden bir bağlantıyı tıklarsanız web siteleri\' operatör aygıtınız hakkında bilgi toplayabilir.\n
+   6. Bilgileri hiçkimseyle paylaşmayacağım.
+    
+    
+
+    
+
+         ]]></string>
 </resources>
