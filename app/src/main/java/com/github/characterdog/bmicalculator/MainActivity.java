@@ -4,10 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
-import android.preference.PreferenceManager;
-import com.google.android.material.textfield.TextInputLayout;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -18,6 +16,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+
+import com.google.android.material.textfield.TextInputLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static com.github.characterdog.bmicalculator.AboutActivity.EXTRA_PRIVACY_POLICY;
 
@@ -30,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     AutoCompleteTextView txt_height;
     AutoCompleteTextView txt_weight;
     SharedPreferences sharedPreferences;
+
+    private String heightMeasurementUnit;
+    private String weightMeasurementUnit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -133,42 +138,100 @@ public class MainActivity extends AppCompatActivity {
         return calculateBmi(height, weight);
     }
 
+    // Begin height conversion methods
+
+    public static double convertInchToCentimeter(double inch){
+        return inch * 2.54;
+    }
+
+    public static double convertMeterToCentimeter(double meter){
+        return meter * 100;
+    }
+
+    public static double convertFootToCentimeter(double foot){
+        return foot * 30.48;
+    }
+
+    public static double convertHandToCentimeter(double hand){
+        return hand * 10.16;
+    }
+
+    public static double convertDecimeterToCentimeter(double decimeter){
+        return decimeter * 10;
+    }
+
+    public static double convertYardToCentimeter(double yard){
+        return yard * 91.44;
+    }
+
+    // End height conversion methods
+
+    // Begin weight conversion methods
+    public static double convertPoundToKilogram(double pound){
+        return pound*0.4535924;
+    }
+
+    public static double convertGramToKilogram(double gram){
+        return gram*0.001;
+    }
+
+    public static double convertOunceToKilogram(double ounce){
+        return ounce*0.02834952;
+    }
+
+    public static double convertDecagramToKilogram(double decagram){
+        return decagram*.01;
+    }
+
+	public static double convertShortHundredWeightToKilogram(double hundredWeight){
+        return hundredWeight*45.359237;
+    }
+
+	public static double convertLongHundredWeightToKilogram(double hundredWeight){
+        return hundredWeight*50.80234544;
+    }
+
+    public static double convertAvoirdupoisPoundToKilogram(double avoirdupois){
+        return avoirdupois*0.45359243;
+    }
+    // End weight conversion methods
+
     public static double calculateBmi(double height, double weight) {
         return Math.round(weight / Math.pow(height, 2) * 10d) / 10d;
     }
 
-    private String getCategory(double bmi) {
+    public static String getCategory(double bmi) {
         if (bmi < 15) {
-            return getString(R.string.bmi_cat_1);
+            return "Very severely underweight";
         }
         if (bmi < 16) {
-            return getString(R.string.bmi_cat_2);
+            return "Severely underweight";
         }
         if (bmi < 18.5) {
-            return getString(R.string.bmi_cat_3);
+            return "Underweight";
         }
         if (bmi < 25) {
-            return getString(R.string.bmi_cat_4);
+            return "Normal (healthy weight)";
         }
         if (bmi < 30) {
-            return getString(R.string.bmi_cat_5);
+            return "Overweight";
         }
         if (bmi < 35) {
-            return getString(R.string.bmi_cat_6);
+            return "Obese Class I (Moderately obese)";
         }
         if (bmi < 40) {
-            return getString(R.string.bmi_cat_7);
+            return "Obese Class II (Severely obese)";
         }
         if (bmi < 45) {
-            return getString(R.string.bmi_cat_8);
+            return "Obese Class III (Very severely obese)";
         }
         if (bmi < 50) {
-            return getString(R.string.bmi_cat_9);
+            return "Obese Class IV (MOrbidly obese)";
         }
         if (bmi < 60) {
-            return getString(R.string.bmi_cat_10);
+            return "Obese Class V  (Super obese)";
         }
-        return getString(R.string.bmi_cat_11);
+        return "Obese Class VI (Hyper obese)";
     }
 
     private void setSystemOfUnits() {
