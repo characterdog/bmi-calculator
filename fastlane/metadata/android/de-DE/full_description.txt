@@ -1,1 +1,8 @@
-Einfacher BMI-Rechner (Body mass index) im Material Design
+Warum diese App nutzen:
+• Supports metric and imperial system of units
+• Material Design
+• Your data stays on your device
+• Keine Werbung oder Tracking
+• Vollständig Open Source: https://github.com/characterdog/bmi-calculator
+
+Hilf mit diese App zu übersetzen: https://crowdin.com/project/characterdog-bmi-calculator

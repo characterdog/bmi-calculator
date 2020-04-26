@@ -1,1 +1,8 @@
-Simple BMI (Body mass index) calculator with Material Design
+Bu uygulamayı neden kullanmalı:
+• Metrik ve ingiliz birim sistemlerini destekler
+• Material Design
+• Verileriniz aygıtınızda kalır
+• reklam veya izleme yok
+• Tamamen açık kaynaklı: https://github.com/characterdog/bmi-calculator
+
+Bu uygulamanın çevirisine yardım et: https://crowdin.com/project/characterdog-bmi-calculator

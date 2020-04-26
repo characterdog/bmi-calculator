@@ -1,1 +1,1 @@
-Simple BMI calculator
+Jednoduchá a prostá kalkulačka na výpočet indexu tělesné hmotnosti

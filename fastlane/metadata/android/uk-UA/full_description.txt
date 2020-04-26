@@ -1,1 +1,8 @@
-Simple BMI (Body mass index) calculator with Material Design
+Чому потрібно користуватися цим додатком:
+• Підтримує метричну і британську систему одиниць
+• Матеріальний дизайн
+• Ваші дані залишаються на вашому пристрої
+• Немає реклами і трекінгу
+• Повністю відкритий вихідний код: https://github.com/characterdog/bmi-calculator
+
+Допоможіть перевести це додаток: https://crowdin.com/project/characterdog-bmi-calculator

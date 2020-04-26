@@ -1,1 +1,8 @@
-Calculateur d’IMC (Indice de Masse Corporelle) basique, avec une interface Material Design
+Pourquoi utiliser cette application:
+• Supporte les systèmes métrique et impérial d'unités
+• Material Design
+• Vos données restent sur votre appareil
+• Aucune pub ni ciblage
+• Entièrement open-source: https://github.com/characterdog/bmi-calculator
+
+Aidez nous à traduire cette application: https://crowdin.com/project/characterdog-bmi-calculator

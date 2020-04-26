@@ -1,1 +1,1 @@
-Calculateur d’IMC basique
+Calculateur d'indice de masse corporelle simple et facile à utiliser

@@ -1,1 +1,1 @@
-Simple BMI calculator
+Kolay ve sade Vücut kitle indeksi hesaplayıcısı
