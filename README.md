@@ -1,3 +1,5 @@
+# This project currently receives little to no maintenance by myself. Feel free to fork it!
+
 # BMI calculator app for Android
 <a href="https://travis-ci.com/characterdog/bmi-calculator/"><img src="https://api.travis-ci.com/characterdog/bmi-calculator.svg?branch=master"></a> <a title="Crowdin" target="_blank" href="https://crowdin.com/project/characterdog-bmi-calculator"><img src="https://d322cqt584bo4o.cloudfront.net/characterdog-bmi-calculator/localized.svg"></a>
 
