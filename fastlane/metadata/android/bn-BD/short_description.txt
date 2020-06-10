@@ -1,1 +1,1 @@
-Easy and simple Body mass index calculator
+দেহের গড়ন ও চর্বির সূচক নির্দেশের জন্য সহজে ব্যবহারযোগ্য ক্যালকুলেটর
