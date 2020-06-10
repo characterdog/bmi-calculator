@@ -1,2 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"></resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">বিএমআই ক্যালকুলেটর</string>
+    <string name="weight_metric">ওজন কেজিতে</string>
+    <string name="height_metric">উচ্চতা মিটারে</string>
+    <string name="weight_imperial">ওজন পাউন্ডে</string>
+    <string name="height_imperial">উচ্চতা ইঞ্চিতে</string>
+    <string name="more_information">উইকিপিডিয়াতে আরো তথ্য</string>
+    <string name="wikipedia_bmi_link">https://en.wikipedia.org/wiki/Body_mass_index</string>
+    <string name="bmi_result">বিএমআই: %s</string>
+    <string name="bmi_cat_1">অতিরিক্ত কম ওজন</string>
+    <string name="bmi_cat_2">খুবই কম ওজন</string>
+    <string name="bmi_cat_3">কম ওজন</string>
+    <string name="bmi_cat_4">আদর্শ (সুস্বাস্থের আদর্শ ওজন)</string>
+    <string name="bmi_cat_5">বেশি ওজন</string>
+    <string name="bmi_cat_6">মোটা হওয়ার প্রথম স্তর (কিছুটা মোটাত্ব)</string>
+    <string name="bmi_cat_7">মোটা হওয়ার দ্বিতীয় স্তর (অতিরিক্ত মোটাত্ব)</string>
+    <string name="bmi_cat_8">মোটা হওয়ার তৃতীয় স্তর (খুবই অতিরিক্ত মোটাত্ব)</string>
+    <string name="bmi_cat_9">মোটা হওয়ার চতুর্থ স্তর (মারাত্মক স্থূলকায়)</string>
+    <string name="bmi_cat_10">মোটা হওয়ার পঞ্চম স্তর</string>
+    <string name="bmi_cat_11">মোটা হওয়ার ষষ্ঠ স্তর (অস্বাভাবিক মোটাত্ব, মৃত্যুঝুঁকির আশঙ্কা)</string>
+    <string name="imperial">ইম্পেরিয়াল</string>
+    <string name="metric">মেট্রিক</string>
+    <string name="default_unit">@string/metric</string>
+    <string name="action_about">সম্পর্কে</string>
+    <string name="author">লেখক</string>
+    <string name="help_translating_this_app">এই অ্যাপ অনুবাদ করতে সাহায্য করুন!</string>
+    <string name="rate_in_play_store">প্লে-স্টোরে রেট করুন</string>
+    <string name="share_with_friends">বন্ধুদের সাথে শেয়ার করুন</string>
+    <string name="check_out">এই অ্যাপটা দেখুন: %s\n%s</string>
+    <string name="legal">আইনকানুন সম্পর্কিত</string>
+    <string name="license">লাইসেন্স</string>
+    <string name="privacy_policy">গোপনীয়তার নীতিমালা</string>
+    <string name="privacy_policy_content"><![CDATA[    ১. আপনি যদি গুগল প্লে এর মাধ্যমে এই অ্যাপটি ইনস্টল করেন, গুগল আপনার ডিভাইস সম্পর্কিত তথ্য সংগ্রহ করবে
+    এবং সেগুলি আমাকে গুগল প্লে কনসোলে দেখাবে। ক্র্যাশ হলে কিছু তথ্য গুগলে আপলোড করা হবে। এর উপর আমার
+    কোনও নিয়ন্ত্রণ নেই। বিস্তারিতের জন্য তাদের গোপনীয়তা নীতি পড়ুন।
+    ২. আপনি যদি এফ-ড্রয়েডের মাধ্যমে এই অ্যাপটি ইনস্টল করেন তবে আমি কোনও ব্যবহারের ডেটা দেখতে পাবো না।
+    বিস্তারিতেরজন্য তাদের গোপনীয়তা নীতি পড়ুন।
+    ৩. গুগলের মাধ্যমে অটো ব্যাকআপ সহ কোনও ডিভাইস চালানো হলে গুগল আপনার এককের পদ্ধতি গুগল ড্রাইভে
+    আপলোড করবে: https://developer.android.com/guide/topics/data/autobackup\n
+    ৪. আপনি আমাকে characterdog.apps@gmail.com এ মেইল ​​করতে পারেন। এইক্ষেত্রে আমি এবং গুগল আপনার জানব 
+    ই-মেইল ঠিকানা এবং আপনার মেইলে আপনার লিখিত সমস্ত কিছুই জানব। আমি আপনার সমস্যা ঠিক হওয়ার পরে আপনার
+    মেইল ​​মুছে ফেলব। গুগলে মেইলের ব্যাকআপ থাকতে পারে এবং আমি মুছে ফেললেও, গুগল মুছে নাও থাকতে পারে।\n
+    ৫. আপনি যদি স্ক্রিনে "সম্পর্কে" কোনও লিঙ্ক ক্লিক করেন তবে ওয়েবসাইটগুলির অপারেটর আপনার ডিভাইস সম্পর্কিত তথ্য
+    সংগ্রহ করতে পারে n
+    ৬. আমি তথ্য কারও সাথে ভাগ করে নেব না।
+    ]]></string>
+</resources>

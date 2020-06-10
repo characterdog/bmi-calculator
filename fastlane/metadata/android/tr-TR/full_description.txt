@@ -1,6 +1,6 @@
 Bu uygulamayı neden kullanmalı:
 • Metrik ve ingiliz birim sistemlerini destekler
-• Material Design
+• Materyal Tasarım
 • Verileriniz aygıtınızda kalır
 • reklam veya izleme yok
 • Tamamen açık kaynaklı: https://github.com/characterdog/bmi-calculator

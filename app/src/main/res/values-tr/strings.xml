@@ -2,10 +2,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">BMI Hesaplayıcı</string>
     <string name="weight_metric">Ağırlık kg</string>
-    <string name="height_metric">Boy m</string>
+    <string name="height_metric">Boy metre</string>
     <string name="weight_imperial">Ağırlık pounds</string>
     <string name="height_imperial">Boy inch</string>
-    <string name="more_information">Daha çok bilgi Wikipediada  </string>
+    <string name="more_information">Daha çok bilgi Wikipedia\'da</string>
     <string name="wikipedia_bmi_link">https://en.wikipedia.org/wiki/Body_mass_index</string>
     <string name="bmi_result">BMI: %s</string>
     <string name="bmi_cat_1">Çok aşırı zayıf</string>
