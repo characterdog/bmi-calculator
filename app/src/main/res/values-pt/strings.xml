@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation"></resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">Calculadora IMC</string>
+    <string name="weight_metric">Peso em kg</string>
+    <string name="height_metric">Peso em m</string>
+    <string name="weight_imperial">Peso em libras</string>
+    <string name="height_imperial">Peso em polegada</string>
+    <string name="more_information">Mais informações na Wikipédia</string>
+    <string name="wikipedia_bmi_link">https://pt.wikipedia.org/wiki/%C3%8Dndice_de_massa_corporal</string>
+    <string name="bmi_result">IMC: %s</string>
+    <string name="bmi_cat_1">Muito abaixo do peso</string>
+    <string name="bmi_cat_2">Acima do peso</string>
+    <string name="bmi_cat_3">Abaixo do peso</string>
+    <string name="bmi_cat_4">Normal (peso saudável)</string>
+    <string name="bmi_cat_5">Acima do peso</string>
+    <string name="bmi_cat_6">Obesidade I (Moderada)</string>
+    <string name="bmi_cat_7">Obesidade II (Severa)</string>
+    <string name="bmi_cat_8">Obesidade III (Muito severa)</string>
+    <string name="bmi_cat_9">Obesidade IV (Mórbida)</string>
+    <string name="bmi_cat_10">Obesidade V (Super Obesidade)</string>
+    <string name="bmi_cat_11">Obese Class VI (Hyper Obesidades)</string>
+    <string name="imperial">Imperial</string>
+    <string name="metric">Métrica</string>
+    <string name="default_unit">@string/metric</string>
+    <string name="action_about">Sobre</string>
+    <string name="author">Autor</string>
+    <string name="help_translating_this_app">Ajuda a traduzir esta aplicação!</string>
+    <string name="rate_in_play_store">Classifica na Play Store</string>
+    <string name="share_with_friends">Compartilha com os teus amigos</string>
+    <string name="check_out">Ei, verifica esta aplicação: %s\n%s</string>
+    <string name="legal">Jurídico</string>
+    <string name="license">Licença</string>
+    <string name="privacy_policy">Política de privacidade</string>
+    <string name="privacy_policy_content"><![CDATA[    1. Se instalares esta aplicação através do Google Play, o Google irá recolher informação sobre o teu dispositivo
+    e mostrar-me na consola do mesmo. No caso, de uma falha (crash) algumas informações serão
+    carregadas par a Google. Eu não tenho controlo sobre uso desses dados. Por favor, refere as suas políticas de privacidade para detalhes.\n
+    2. Se instalares esta aplicação através do F-Droidm eu não posso ver qualquer uso desses dado.\n
+    3. Se executares um dispositivo com Cópia de Segurança Automática pela Google, a mesma irá carregar o teu sistema de unidade para o Google Drive: https://developer.android.com/guide/topics/data/autobackup\n
+    4. Podes enviar-me um email para characterdog.apps@gmail.com. Neste caso eu e a Google iremos saber o teu
+    endereço de email e tudo o que escreveres no teu email. Eu irei apagar o teu mail depois do problema
+    ter sido resolvido ou a tua pergunta ter sido respondida. A Google pode ter uma cópia de segurança do mail e não
+    apagá-lo quando o fizer.\n
+    5. Se clicares num link na tela Sobre, o operador do site pode recolher informação sobre
+    o teu dispositivo.\n
+    6. Eu não vou compartilhar a informação com mais ninguém.
+    ]]></string>
+</resources>
