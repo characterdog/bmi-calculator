@@ -1,8 +1,8 @@
-Why use this app:
-• Supports metric and imperial system of units
-• Material Design
-• Your data stays on your device
-• No ads or tracking
-• Fully open source: https://github.com/characterdog/bmi-calculator
+কেন এই অ্যাপ ব্যবহার করবেন:
+• মেট্রিক ও ইম্পেরিয়াল একক সমর্থন করে
+• ম্যাটেরিয়াল ডিজাইন
+• তথ্য আপনার ডিভাইসে স্থানীয়ভাবে থাকে
+• কোন অ্যাড বা ট্র্যাকিং নেই
+• সম্পূর্ণ ওপেন সোর্স: https://github.com/characterdog/bmi-calculator
 
-Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
+এই অ্যাপ অনুবাদ করতে সাহায্য করুন: https://crowdin.com/project/characterdog-bmi-calculator
