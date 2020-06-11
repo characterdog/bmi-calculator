@@ -19,6 +19,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
+import static com.github.characterdog.bmicalculator.AboutActivity.BMI_POLICY;
 import static com.github.characterdog.bmicalculator.AboutActivity.EXTRA_PRIVACY_POLICY;
 
 public class MainActivity extends AppCompatActivity {
@@ -53,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(browserIntent);
             }
         });
-
         setSystemOfUnits();
     }
 
@@ -78,6 +78,11 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.action_privacy) {
             Intent i = new Intent(this, AboutActivity.class);
             i.putExtra(EXTRA_PRIVACY_POLICY, true);
+            startActivity(i);
+            return true;
+        } else if (id == R.id.action_bmi){
+            Intent i = new Intent(this, AboutActivity.class);
+            i.putExtra(BMI_POLICY, true);
             startActivity(i);
             return true;
         }

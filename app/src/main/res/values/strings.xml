@@ -6,6 +6,8 @@
     <string name="height_imperial">Height in inch</string>
     <string name="more_information">More information on Wikipedia</string>
     <string name="wikipedia_bmi_link">https://en.wikipedia.org/wiki/Body_mass_index</string>
+    <string name="bmi_tables">BMI Tables</string>
+    <string name="gov_bmi_tables">https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmi_tbl.htm</string>
     <string name="bmi_result">BMI: %s</string>
     <string name="bmi_cat_1">Very severely underweight</string>
     <string name="bmi_cat_2">Severely underweight</string>
@@ -31,6 +33,7 @@
     <string name="legal">Legal</string>
     <string name="license">License</string>
     <string name="privacy_policy">Privacy policy</string>
+    <string name="bmi_policy">BMI ranges</string>
 
     <string name="privacy_policy_content"><![CDATA[
     1. If you install this app via Google Play, Google will collect information about your device
@@ -45,5 +48,12 @@
     5. If you click a link on the About screen the websites\' operator may collect information about
     your device.\n
     6. I will not share the information with anybody else.
+    ]]></string>
+    <string name="bmi_content"><![CDATA[
+    BMI Categories: \n
+    Underweight = <18.5 \n
+    Normal weight = 18.5–24.9 \n
+    Overweight = 25–29.9 \n
+    Obesity = BMI of 30 or greater \n
     ]]></string>
 </resources>

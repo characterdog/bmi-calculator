@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.danielstone.materialaboutlibrary.ConvenienceBuilder;
@@ -24,7 +25,7 @@ import com.danielstone.materialaboutlibrary.util.OpenSourceLicense;
 
 public class AboutActivity extends AppCompatActivity {
     public final static String EXTRA_PRIVACY_POLICY = "privacy_policy";
-
+    public final static String BMI_POLICY = "bmi_policy";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +35,8 @@ public class AboutActivity extends AppCompatActivity {
             Fragment f;
             if (getIntent().getBooleanExtra(EXTRA_PRIVACY_POLICY, false)) {
                 f = new ShowPrivacyPolicyFragment();
+            } else if (getIntent().getBooleanExtra(BMI_POLICY, false)){
+                f = new ShowBMIContentFragment();
             } else {
                 f = new MyMaterialAboutFragment();
             }
@@ -54,6 +57,29 @@ public class AboutActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    public static class ShowBMIContentFragment extends Fragment {
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                                 Bundle savedInstanceState) {
+            return inflater.inflate(R.layout.bmi_content_fragment, container, false);
+        }
+
+        @Override
+        public void onResume() {
+            super.onResume();
+            TextView bmiContent = getView().findViewById(R.id.bmi_content);
+            bmiContent.setText(getString(R.string.bmi_content));
+
+            Button bmitables = getView().findViewById(R.id.bmi_tables);
+            bmitables.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.gov_bmi_tables)));
+                    startActivity(browserIntent);
+                }
+            });
+        }
     }
 
     public static class ShowPrivacyPolicyFragment extends Fragment {
